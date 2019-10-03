@@ -1,0 +1,119 @@
+
+
+		Class -- Customer ? -- Type -- that we need
+				class Customer -- cid/ag/anm/cbal
+
+			Object
+				-- c1 = Customer(params..)
+
+		Abstraction
+		Polymorphism
+		Inheritance
+		Encapsulation..
+
+
+Service ---
+	CustomerService..
+
+
+
+
+
+
+
+
+	Customer -- to define type and strutucture--
+					str
+					repr
+
+	CustomerService -- to define constracts what type of serverices
+	you are offering to the end user -- focus would be on what..
+
+		5-
+
+	CustomerServiceImpl -- focus would be on how..
+			will be provide implementation to all abstract methods
+			of customer service.
+
+		5-
+			add(cust)
+					if type(cust)== customer
+						if duplicate hoga-- cid
+							return  already exist
+						else:
+							append
+							added successfully
+					else:
+						invalid type
+			update(ucust)
+				dbcust = getcustomer(ucust.cid)
+				if type(dbcust)==customer:
+						ind = listofcustomers(dbcust)
+						listofcustomers[ind]=ucust
+						print('updated')
+				else:
+						cannot update..
+
+
+			delete(cid)
+					dbcust = getcustomer(ucust.cid)
+				if type(dbcust)==customer:
+						listofcustomers.remove(dbcust)
+						deleted successfully
+				else:
+						cannot delete..
+
+
+			get(cid)
+				for cust in listofcustomers:
+					if cust.cid ==cid:
+						return cust
+
+				return 'not present '
+
+			getAll()
+				return listofcustomers
+
+
+Types of variables
+		global
+		local
+		nonlocal
+		instance
+		class
+Types of Methods
+	class
+	static
+	instance
+Types of Params
+	positional
+	named
+	default
+	arbitary -- *args
+	kewword args -- **kargs
+
+
+
+		College
+			Depts
+				Students
+						subjects
+						books
+
+			Professors
+				deptid
+				subjects
+
+		Library
+			Books
+
+
+i want dept wise agr of math subj..
+
+i want dept wise agr of math subj..max agr-- dept and agr value
+i want dept and no of students -
+want list -- a prof-- atleast two differn depts subj diffetn-- teach
+
+
+
+
