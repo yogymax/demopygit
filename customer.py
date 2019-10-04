@@ -2,6 +2,7 @@
 newly added
 
 '''
+print('added by another developer')
 
 class Customer:
 
