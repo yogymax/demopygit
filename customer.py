@@ -1,4 +1,7 @@
+'''
+newly added
 
+'''
 
 class Customer:
 
@@ -28,3 +31,7 @@ if __name__ == '__main__':
     customers = [c1,c2,c3]
     print(customers)
 
+
+
+def newfun():
+    print('add new fun')
