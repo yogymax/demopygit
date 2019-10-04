@@ -3,6 +3,8 @@ from abc import ABC,abstractmethod
 
 #CRUD == create/read[all/filtered]/update/delete
 
+print('inside service impl')
+
 #Abstraction -- Contract
 class Service(ABC): #what -- focus
 
